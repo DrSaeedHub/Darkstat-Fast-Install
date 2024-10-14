@@ -3,19 +3,6 @@
 
 This repository contains a Bash script that automates the installation and configuration of Darkstat, a network traffic analyzer for Linux. The script ensures that all necessary packages are installed, configures the network interface, and starts the Darkstat service.
 
-## Features
-
-- Installs required packages (`curl`, `gnupg2`, `unzip`, `git`, and `darkstat`).
-- Automatically detects the network interface.
-- Configures Darkstat with a default configuration.
-- Opens the required firewall port for Darkstat.
-- Enables and starts the Darkstat service.
-
-## Prerequisites
-
-- A Linux-based operating system (Debian/Ubuntu recommended).
-- Root privileges are required to run this script.
-
 ## Usage
 
 1. **Clone the Repository** (optional):
@@ -34,6 +21,19 @@ This repository contains a Bash script that automates the installation and confi
    ```bash
    sudo bash setup_darkstat.sh
    ```
+
+## Features
+
+- Installs required packages (`curl`, `gnupg2`, `unzip`, `git`, and `darkstat`).
+- Automatically detects the network interface.
+- Configures Darkstat with a default configuration.
+- Opens the required firewall port for Darkstat.
+- Enables and starts the Darkstat service.
+
+## Prerequisites
+
+- A Linux-based operating system (Debian/Ubuntu recommended).
+- Root privileges are required to run this script.
 
 ## Script Overview
 
